@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+}
+body {
+	background-image: url(img/IMG_20220623_112534.jpg);
+	background-size: cover;
+}
+.box-formulir {
+	width: 50%;
+	margin: 100px auto;
+}
+.box {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	padding: 10px;
+	box-sizing: border-box;
+	margin: 5px 0 25px;
+	border: 4px solid rgb(14, 121, 14);
+	border-radius: 10px;
+	/* box-shadow: 10px 10px 20px black; */
+}
+.table-form {
+	width: 100%;
+}
+.table-form tr td:nth-child(1){
+	width: 30%;
+}
+.input-control{
+	padding: 5px 10px;
+	font-size: 16px;
+	margin: 5px 0;
+}
+.btn-daftar{
+	padding: 10px 17px;
+	background-color: #2b8042;
+	color: white;
+	border: none;
+	font-size: 16px;
+}
+.btn-daftar:hover{
+	cursor: pointer;
+	background-color: #52ac6a;  
+}
+.lg-peserta{
+	padding: 10px 17px;
+	background-color: #2b8042;
+	color: white;
+	border: none;
+	font-size: 16px;
+	text-decoration: none;
+}
+.lg-peserta:hover{
+	cursor: pointer;
+	background-color: #52ac6a;  
+}
+.btn-cetak{
+	display: inline-block;
+	color: rgb(238, 235, 235);
+	background-color: #2b8042;
+	padding: 10px 17px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.btn-cetak:hover{
+	cursor: pointer;
+	background-color: #35a353;
+}
+.table-data{
+	width: 100%;
+	margin-top: 10px;
+}
+.table-data tr td{
+	height: 35px;
+	margin-left: 50px;
+}
+.bukti-data tr td:nth-child(1){
+	width: 20%;
+}
+.bukti{
+	margin-top: 15px;
+}
+.main-login{
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+.box-login{
+	width: 320px;
+	min-height: 200px;
+	background-color: #2b8042;
+}
+.box-login h2{
+	text-align: center;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.btn-login{
+	padding: 5px 20px;
+	background-color: #2b8042;
+	color: #fff;
+	border: none;
+	font-size: 16px;
+}
+.btn-login:hover{
+	cursor: pointer;
+	background-color: #3f9b57;
+}
+header{
+	background-color: #fff;
+}
+header::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+header h1{
+	padding: 15px 25px;
+	display: inline-block;
+	float: left;
+}
+header ul{
+	float: left;
+}
+header ul li{
+	padding: 24px 25px;
+	display: inline-block;
+	color: rgb(26, 25, 25);
+	font-size: 15px;
+}
+header ul li a{
+	text-decoration: underline;
+}
+.content {
+	width: 90%;
+	box-sizing: border-box;
+	padding: 10px;
+	margin: 50px auto;
+	box-shadow: 10px 10px 20px black;
+	overflow: auto;
+}
+.table{
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	width: 100%;
+}
+.table tr{
+	height: 30px;
+}
+.table tr td{
+	padding: 5px 10px;
+}
+.table tr td:nth-child(1){
+	text-align: center;
+}
+
+@media screen and (max-width: 768px){
+	.box-formulir{
+		width: 90%;
+	}
+	.content{
+		overflow: auto;
+	}
+}
